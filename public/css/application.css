@@ -1,16 +1,21 @@
 #header {
-    height: 30px;
+  height: 30px;
 }
 #footer {
-    height: 30px;
-    position: absolute;
-    bottom: 0;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
 }
 body {
-    height: 100%;
-    margin-bottom: 30px;
+  height: 100%;
+  margin-bottom: 30px;
 }
 
 th {
   text-align: center;
+}
+
+.pic {
+  height: 220px;
+  width: 220px;
 }
