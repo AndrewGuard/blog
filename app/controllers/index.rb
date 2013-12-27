@@ -13,4 +13,3 @@ end
 get '/archive' do
   erb :archive
 end
-
