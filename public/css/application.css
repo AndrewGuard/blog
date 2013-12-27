@@ -5,9 +5,8 @@ body {
 img .header-pic {
   float: left;
   margin-right: 20px;
-  border: 10px solid #EEE;
-  width: 220px;
-  height: 220px;
+  border: 10px solid black;
+  width: 240px;
 }
 
 .stylebox {
@@ -45,4 +44,12 @@ body {
 
 th {
   text-align: center;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
