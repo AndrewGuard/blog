@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="/css/application.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+
+  <title></title>
+</head>
+<body>
+  <div class="header">
+    <ul>
+      <li><a href="/bio"> Bio </a></li>
+      <li><a href="/travel"> Travel </a></li>
+      <li><a href="/archive"> Archive </a></li>
+    </ul>
+  </div>
+  <%= yield %>
+  <p>
+    You can find my <a href="https://github.com/AndrewGuard">GitHub</a>,
+    <a href="http://www.linkedin.com/profile/view?id=117086767&trk=nav_responsive_tab_profile_pic">LinkedIn</a>,
+    and <a href="https://www.facebook.com/andrew.guard">Facebook</a> profiles.
+  </p>
+</body>
+</html>
