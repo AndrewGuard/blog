@@ -1,11 +1,13 @@
-#header {
+.header {
   height: 30px;
 }
-#footer {
+
+.footer {
   height: 30px;
   position: absolute;
   bottom: 0;
 }
+
 body {
   height: 100%;
   margin-bottom: 30px;
