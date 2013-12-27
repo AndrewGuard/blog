@@ -2,6 +2,12 @@
   height: 30px;
 }
 
+.header li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
 .footer {
   height: 30px;
   position: absolute;
