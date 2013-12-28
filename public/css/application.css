@@ -6,7 +6,7 @@ body {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-  border: 10px solid black;
+  border: 5px solid #EEE;
   width: 240px;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 .content {
-  max-width: 960px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -35,7 +35,7 @@ img {
 .footer {
   border-top: 1px solid #CCC;
   padding-top: 15px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 body {
@@ -53,4 +53,19 @@ p {
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+}
+
+a:link {color: #8B8B83; text-decoration: none; }
+a:active {color: #8B8B83; text-decoration: none; }
+a:visited {color: #8B8B83; text-decoration: none; }
+a:hover {color: #8B8B83; text-decoration: none; }
+
+.post-content {
+  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+  font-size: 16px;
 }
