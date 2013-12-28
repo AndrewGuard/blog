@@ -13,3 +13,7 @@ end
 get '/archive' do
   erb :archive
 end
+
+get '/reading' do
+  erb :reading
+end

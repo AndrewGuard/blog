@@ -12,7 +12,6 @@ body {
 
 .stylebox {
   padding-bottom: 15px;
-  /*border-bottom: 1px solid #CCC;*/
 }
 
 .content {
@@ -55,10 +54,10 @@ p {
   -webkit-margin-end: 0px;
 }
 
-a:link {color: #8B8B83; text-decoration: none; }
-a:active {color: #8B8B83; text-decoration: none; }
-a:visited {color: #8B8B83; text-decoration: none; }
-a:hover {color: #8B8B83; text-decoration: none; }
+a:link {color: #145D9A; text-decoration: none; }
+a:active {color: #145D9A; text-decoration: none; }
+a:visited {color: #145D9A; text-decoration: none; }
+a:hover {color: #145D9A; text-decoration: none; }
 
 .post-content {
   font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman",Times,serif;
