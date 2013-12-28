@@ -10,14 +10,22 @@ body {
   width: 240px;
 }
 
+.students {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 5px solid #EEE;
+  width: 600px;
+  height: 251px;
+}
+
 .stylebox {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .content {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
 }
 
 img {
@@ -34,12 +42,13 @@ img {
 .footer {
   border-top: 1px solid #CCC;
   padding-top: 15px;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 body {
   height: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  -webkit-font-smoothing: antialiased;
 }
 
 th {
@@ -52,6 +61,7 @@ p {
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+  margin: 0;
 }
 
 a:link {color: #145D9A; text-decoration: none; }
@@ -66,5 +76,13 @@ a:hover {color: #145D9A; text-decoration: none; }
   font-style: normal;
   font-size: 22px;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 17px;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
