@@ -2,9 +2,10 @@ body {
   background-color: #FFFFFD;
 }
 
-img .header-pic {
+.header-pic {
   float: left;
   margin-right: 20px;
+  margin-bottom: 20px;
   border: 10px solid black;
   width: 240px;
 }
