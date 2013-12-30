@@ -2,8 +2,8 @@ get '/' do
   erb :index
 end
 
-get '/bio' do
-  erb :bio
+get '/coding' do
+  erb :coding
 end
 
 get '/travel' do

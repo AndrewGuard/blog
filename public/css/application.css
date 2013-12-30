@@ -1,13 +1,19 @@
 body {
+  height: 100%;
+  margin-bottom: 15px;
+  -webkit-font-smoothing: antialiased;
   background-color: #FFFFFD;
 }
 
 .header-pic {
   float: left;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 5px solid #EEE;
   width: 240px;
+  margin-top: 10px;
+  height: 240px;
+  width: 230px;
 }
 
 .students {
@@ -16,6 +22,7 @@ body {
   border: 5px solid #EEE;
   width: 600px;
   height: 251px;
+  z-index: 101;
 }
 
 .stylebox {
@@ -26,10 +33,11 @@ body {
   max-width: 620px;
   margin: 0 auto;
   padding: 40px;
-  margin-right: 110px;
+  margin-left: 110px;
 }
 
 img {
+  margin-top: 10px;
   height: 240px;
   width: 220px;
 }
@@ -38,12 +46,6 @@ img {
   border-top: 1px solid #CCC;
   padding-top: 15px;
   padding-left: 40px;
-}
-
-body {
-  height: 100%;
-  margin-bottom: 15px;
-  -webkit-font-smoothing: antialiased;
 }
 
 th {
@@ -83,17 +85,18 @@ p {
 }
 
 .navbar {
-  /*background: pink;*/
   padding-left: 5px;
+  padding-top: 150px;
   position:fixed;
   top:0;
-  right:0;
+  left:0;
   width: 90px;
   height: 100%;
-  border-left: 2px solid #EEE;
+  border-right: 2px solid #EEE;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   text-align: center;
+  z-index: 100;
 }
