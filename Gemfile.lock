@@ -17,8 +17,6 @@ GEM
     builder (3.0.4)
     daemons (1.1.9)
     eventmachine (1.0.0)
-    faker (1.2.0)
-      i18n (~> 0.5)
     i18n (0.6.1)
     multi_json (1.6.1)
     pg (0.17.0)
@@ -54,7 +52,6 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   activesupport
-  faker
   pg
   rake
   shotgun
