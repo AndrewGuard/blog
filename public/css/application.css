@@ -23,20 +23,15 @@ body {
 }
 
 .content {
-  max-width: 800px;
+  max-width: 620px;
   margin: 0 auto;
   padding: 40px;
+  margin-right: 110px;
 }
 
 img {
   height: 220px;
   width: 220px;
-}
-
-.header li {
-  display: inline;
-  list-style-type: none;
-  padding: 10px;
 }
 
 .footer {
@@ -85,4 +80,15 @@ p {
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+}
+
+.navbar {
+  /*background: pink;*/
+  padding-left: 2px;
+  position:fixed;
+  top:0;
+  right:0;
+  width: 90px;
+  height: 100%;
+  border-left: 2px solid #EEE;
 }
