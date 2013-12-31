@@ -2,16 +2,12 @@ get '/' do
   erb :index
 end
 
-get '/coding' do
-  erb :coding
+get '/code' do
+  erb :code
 end
 
 get '/travel' do
   erb :travel
-end
-
-get '/archive' do
-  erb :archive
 end
 
 get '/reading' do
